@@ -1,0 +1,15 @@
+.History {
+    aspect-ratio: 5/10;
+    height: 80vmin;
+
+    border-radius: 4vmin;
+
+    overflow-y: scroll;
+    scrollbar-track-color: red;
+
+    background-color: black;
+}
+
+.History::-webkit-scrollbar {
+    display: none;
+}

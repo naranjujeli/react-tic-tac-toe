@@ -1,0 +1,15 @@
+.Square {
+    margin: 0;
+
+    aspect-ratio: 1/1;
+
+    background-color: #7096ff;
+    border-radius: 5vmin;
+    border: none;
+
+    font-size: 10vmin;
+}
+
+.Square:hover {
+    background-color: #80AAff;
+}

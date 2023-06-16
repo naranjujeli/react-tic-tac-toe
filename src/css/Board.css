@@ -1,0 +1,19 @@
+.Board {
+    padding: 3vmin;
+
+    box-sizing: border-box;
+
+    aspect-ratio: 1/1;
+    width: 60vmin;
+
+    overflow: hidden;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 1vmin;
+
+    border-radius: 5vmin;
+
+    background-color: black;
+}

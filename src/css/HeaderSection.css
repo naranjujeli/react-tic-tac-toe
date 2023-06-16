@@ -1,7 +1,11 @@
 .HeaderSection {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     
-    justify-content: center;
-    align-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.HeaderSection-title {
+    font-size: 6vmin;
 }

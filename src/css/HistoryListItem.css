@@ -1,0 +1,13 @@
+.HistoryListItem {
+    box-sizing: border-box;
+
+    margin: 1vmin 0 1vmin 0;
+    padding: 2vmin;
+
+    width: 100%;
+
+    border-radius: 2vmin;
+
+    background-color: whitesmoke;
+    color: black;
+}

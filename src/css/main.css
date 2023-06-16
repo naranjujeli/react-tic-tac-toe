@@ -1,0 +1,18 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+:root {
+    /* Color Palette */
+    --dark-background: #333;
+    --light-text: #DDD;
+
+    overflow: hidden;
+}
+
+body {
+    margin: 0;
+}
+
+body * {
+    font-family: 'Rubik', sans-serif;
+}
