@@ -13,3 +13,9 @@
 .History::-webkit-scrollbar {
     display: none;
 }
+
+.HistoryList {
+    margin: 0;
+    padding: 3vmin;
+    list-style: none;
+}

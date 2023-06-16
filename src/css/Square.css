@@ -3,7 +3,7 @@
 
     aspect-ratio: 1/1;
 
-    background-color: #7096ff;
+    background-color: var(--square-background);
     border-radius: 5vmin;
     border: none;
 
@@ -11,5 +11,5 @@
 }
 
 .Square:hover {
-    background-color: #80AAff;
+    background-color: var(--square-active);
 }

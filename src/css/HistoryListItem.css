@@ -1,4 +1,4 @@
-.HistoryListItem {
+.HistoryListItem-button {
     box-sizing: border-box;
 
     margin: 1vmin 0 1vmin 0;
@@ -6,8 +6,15 @@
 
     width: 100%;
 
+    border: none;
     border-radius: 2vmin;
 
     background-color: whitesmoke;
     color: black;
+
+    text-align: left;
+}
+
+.HistoryListItem-button:hover {
+    background-color: white;
 }

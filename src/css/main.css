@@ -5,6 +5,8 @@
     /* Color Palette */
     --dark-background: #333;
     --light-text: #DDD;
+    --square-background: #7096ff;
+    --square-active: #80AAff;
 
     overflow: hidden;
 }
