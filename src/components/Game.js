@@ -6,7 +6,7 @@ import HistoryNode from './HistoryNode';
 
 export default function Game() {
     const [ turn, setTurn ] = useState(true);
-    let winner = null;
+    const [ winner, setWinner ] = useState(null);
     const [ gameFinished, setGameFinished ] = useState(null);
     const [ currentBoard, setCurrentBoard ] = useState(Array(9).fill(null));
     // The history will be an array of HistoryNodes, that contain not only the state
@@ -35,7 +35,7 @@ export default function Game() {
                 board[a] == board[b] && 
                 board[b] == board[c]
             ) {
-                winner = board[a];
+                setWinner(board[a]);
                 setGameFinished(true);
                 return;
             }
@@ -47,6 +47,7 @@ export default function Game() {
             <Board 
                 turn={turn} 
                 setTurn={setTurn} 
+                winner={winner}
                 gameFinished={gameFinished}
                 currentBoard={currentBoard} 
                 setCurrentBoard={setCurrentBoard} 
@@ -56,6 +57,7 @@ export default function Game() {
             />
             <History 
                 setTurn={setTurn}
+                setWinner={setWinner}
                 currentBoard={currentBoard} 
                 setCurrentBoard={setCurrentBoard} 
                 boardHistory={boardHistory} 

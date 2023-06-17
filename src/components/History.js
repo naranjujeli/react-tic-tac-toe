@@ -12,6 +12,7 @@ export default function History(props) {
 
         // Reset variables
         if (id != props.boardHistory.length-1) {
+            props.setWinner(null);
             props.setTurn(props.boardHistory[id].turn);
             props.setGameFinished(false);
         }
