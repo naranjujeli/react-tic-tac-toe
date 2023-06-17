@@ -39,8 +39,13 @@ export default function Board(props) {
     }
 
     return (
-        <div className="Board">
-            {squares}
-        </div>
+        <>
+            <div className="Board">
+                <p className="Board-p">{props.winner ? `The winner is: ${props.winner}` : null}</p>
+                <div className="Board-div">
+                    {squares}
+                </div>
+            </div>
+        </>
     );
 }
