@@ -9,3 +9,7 @@
 .HeaderSection-title {
     font-size: 6vmin;
 }
+
+.HeaderSection-title:hover {
+    color: white;
+}

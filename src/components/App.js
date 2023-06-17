@@ -1,12 +1,12 @@
 import '../css/App.css';
 import HeaderSection from './HeaderSection';
-import GameSection from './GameSection';
+import Game from './Game';
 
 export default function App() {
   return (
     <div className="App">
       <HeaderSection />
-      <GameSection />
+      <Game />
     </div>
   );
 }

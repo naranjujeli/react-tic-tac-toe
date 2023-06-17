@@ -6,6 +6,6 @@
     flex-direction: column;
     justify-items: center;
 
-    background-color: var(--dark-background);
-    color: var(--light-text);
+    background-color: var(--dark);
+    color: var(--light);
 }

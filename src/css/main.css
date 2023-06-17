@@ -3,8 +3,8 @@
 
 :root {
     /* Color Palette */
-    --dark-background: #333;
-    --light-text: #DDD;
+    --dark: #333;
+    --light: #DDD;
     --square-background: #7096ff;
     --square-active: #80AAff;
 
