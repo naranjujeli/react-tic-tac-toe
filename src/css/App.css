@@ -6,6 +6,8 @@
     flex-direction: column;
     justify-items: center;
 
+    overflow-y: auto;
+
     background-color: var(--dark);
     color: var(--light);
 }
