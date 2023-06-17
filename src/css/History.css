@@ -1,7 +1,4 @@
 .History {
-    aspect-ratio: 5/10;
-    height: 80vmin;
-
     border-radius: 4vmin;
 
     overflow-y: scroll;
@@ -18,4 +15,20 @@
     margin: 0;
     padding: 3vmin;
     list-style: none;
+}
+
+@media (pointer: coarse), ((pointer: fine) and (max-width: 768px))
+{
+    .History {
+        width: 60vmin;
+        flex-grow: 1;
+    }
+}
+
+@media ((pointer: fine) and (min-width: 768px))
+{
+    .History {
+        height: 80vmin;
+        aspect-ratio: 5/10;
+    }
 }

@@ -8,11 +8,13 @@
     --square-background: #7096ff;
     --square-active: #80AAff;
 
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 body {
     margin: 0;
+    background-color: var(--dark);
 }
 
 body * {
